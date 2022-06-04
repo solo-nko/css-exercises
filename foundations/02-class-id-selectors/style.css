@@ -1,19 +1,27 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+/* All elements will use these specified fonts. */
+
 }
 .number {
 background-color: lightcoral;
 }
+/* All elements with class "number" will have their background color modified. */
+
 #two {
     color: blue;
     font-size: x-large;
 }
+/* The element with id "two" will have its color and font size modified. */
+
 .cool {
 font-size: larger;
 }
+/* All elements with class "cool" will have their font size modified. */
 
 #three {
     background-color: lightgreen;
     font-size: larger;
     font-weight: 800;
 }
+/* The element with id "three" will have the its color, font size and boldness modified. */
