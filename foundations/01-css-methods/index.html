@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css"><!--External CSS.  This tells the HTML doc to reference a specific stylesheet where the CSS is.  This method is probably the generally recommended one, because it keeps the HTML lean, and allows you to apply the same CSS to multiple HTML docs simultaneously.-->
     <title>Methods for Adding CSS</title>
+    <style> /* Internal CSS.  Note that this bracketing is the only way to comment in CSS, whether single-line or multiline.*/
+      p {
+        font-family: Candara;
+        font-weight: bold;
+        background-color: green;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <div>Style me via the external method!</div>
     <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <button style="background-color:orange;">Inline Method</button><!--Inline CSS.-->
   </body>
 </html>
